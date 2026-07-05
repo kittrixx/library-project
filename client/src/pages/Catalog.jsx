@@ -851,10 +851,10 @@ function Catalog({
       </div>
 
       {/* Основная область: две колонки */}
-      <div style={{ display: 'flex', gap: '50px', alignItems: 'flex-start' }}>
+      <div className="catalog-main-row" style={{ display: 'flex', gap: '50px', alignItems: 'flex-start' }}>
         {/* Левая колонка: список книг */}
-        <div style={{ flex: '1', minWidth: '0' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '40px', marginBottom: '80px' }}>
+        <div className="catalog-books-col" style={{ flex: '1', minWidth: '0' }}>
+          <div className="catalog-books-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '40px', marginBottom: '80px' }}>
             {filteredBooks.map((book) => (
               <div 
                 key={book.id} 
@@ -894,7 +894,7 @@ function Catalog({
         </div>
 
         {/* Правая колонка: только жанры */}
-        <div style={{ width: '320px', flexShrink: 0 }}>
+        <div className="catalog-genre-col" style={{ width: '320px', flexShrink: 0 }}>
           <div style={{ marginBottom: '50px' }}>
             <h3 style={sectionTitleStyle}>Выбор жанра</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>

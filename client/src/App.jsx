@@ -373,7 +373,7 @@ const handleDeleteReview = (index) => {
   };
 
   return (
-    <div className="app-container" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <div className="app-container" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', width: '100%' }}>
       <Navbar 
         setView={setView} 
         user={user} 
@@ -383,7 +383,7 @@ const handleDeleteReview = (index) => {
         notifications={notifications}
       />
       
-      <main style={{ flex: '1', display: 'flex', flexDirection: 'column' }}>
+      <main style={{ flex: '1', display: 'flex', flexDirection: 'column', width: '100%' }}>
         {view === 'home' && (
           <Home 
             setView={setView} 

@@ -25,13 +25,15 @@
   padding: 0;
 }
 
-body {
+html, body {
   /* Единый мягкий и премиальный шрифт для всего сайта */
   font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   background: var(--bg-site);
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  max-width: 100vw;
+  overflow-x: hidden; /* обрезает декоративные элементы, вылезающие за экран (например, "свечение" на Home) */
 }
 
 #root {
@@ -39,6 +41,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* Красивые мягкие заголовки */
@@ -46,4 +49,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: var(--text);
   font-weight: 700;
+}
+
+/* --- Адаптивность каталога на узких экранах (телефоны) --- */
+@media (max-width: 900px) {
+  .catalog-main-row {
+    flex-direction: column !important;
+  }
+
+  .catalog-genre-col {
+    width: 100% !important;
+    order: -1; /* фильтр жанров показываем сверху, до списка книг */
+  }
+
+  .catalog-books-col {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .catalog-books-grid {
+    grid-template-columns: 1fr !important;
+  }
 }

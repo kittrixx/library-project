@@ -16,12 +16,6 @@
         "user": "Мария",
         "rating": 3,
         "text": "Ожидала большего. Местами повествование кажется слишком затянутым и претенциозным, хотя философская мысль, безусловно, интересная."
-      },
-      {
-        "user": "gewg",
-        "rating": 3,
-        "text": "qqqqqqqqqqqqqqqqqqqqq",
-        "userId": 1782898776494
       }
     ],
     "pdfUrl": "https://res.cloudinary.com/w214bm5j/raw/upload/v1783203548/library/pdfs/portret.doriana.greya.pdf"
@@ -64,12 +58,6 @@
         "user": "Светлана",
         "rating": 4,
         "text": "Тяжелое чтение, но очень важное. Заставляет ценить то, что имеешь, и переосмыслить понятие стойкости."
-      },
-      {
-        "user": "ууууууууууууууу",
-        "rating": 2,
-        "text": "уки",
-        "userId": 1782862181799
       }
     ],
     "pdfUrl": "https://res.cloudinary.com/w214bm5j/raw/upload/v1783203551/library/pdfs/odin-den-ivana-denisovicha_2727.pdf"
@@ -371,18 +359,6 @@
         "user": "Кирилл",
         "rating": 4,
         "text": "Отличный детектив, хотя ближе к середине мотивы некоторых персонажей показались притянутыми за уши."
-      },
-      {
-        "user": "прп ",
-        "rating": 3,
-        "text": "22222222222222222222",
-        "userId": 1782898776494
-      },
-      {
-        "user": "р4р",
-        "rating": 2,
-        "text": "444444444444444444",
-        "userId": 1782898776494
       }
     ]
   },
@@ -990,7 +966,7 @@
     "author": "Чарьз Диккенс",
     "genre": "Исторический роман",
     "desc": "Действие этого исторического романа разворачивается в Лондоне и охваченном революцией Париже конца XVIII века, где переплетаются судьбы бежавшего из Франции аристократа Чарльза Дарнея и его возлюбленной Люси Манетт. Центральное место в повествовании занимает тема искупления и самопожертвования, воплощенная в образе адвоката Сиднея Картона, который совершает благородный поступок ради счастья близких ему людей",
-    "pdfUrl": "https://res.cloudinary.com/w214bm5j/raw/upload/v1783203633/library/pdfs/u2csqtrouxb3771cnqp5",
+    "pdfUrl": "https://res.cloudinary.com/w214bm5j/image/upload/v1783255099/library/pdfs_fixed/u2csqtrouxb3771cnqp5.pdf",
     "coverImage": "https://res.cloudinary.com/w214bm5j/image/upload/v1783203632/library/covers/1782996617358_476fa01ceea7b778c5211a9c3e0d5d99.jpg",
     "reviews": [],
     "quotes": [],
@@ -1002,7 +978,7 @@
     "author": "Уильям Теккерей",
     "genre": "Исторический роман",
     "desc": "Вот краткая аннотация для романа Уильяма Теккерея «Карьера Барри Линдона» в двух предложениях:\n\n> Роман написан в форме мемуаров ирландского авантюриста, который, пройдя через дуэли, карточные игры и брак по расчёту, пытается пробиться в высшее английское общество XVIII века. Теккерей с беспощадной иронией обнажает пустоту и корысть светского мира, показывая, как блестящая карьера героя неизбежно ведёт к краху и разорению.",
-    "pdfUrl": "https://res.cloudinary.com/w214bm5j/raw/upload/v1783203635/library/pdfs/dgyfuuxxsfjp7umednse",
+    "pdfUrl": "https://res.cloudinary.com/w214bm5j/image/upload/v1783255100/library/pdfs_fixed/dgyfuuxxsfjp7umednse.pdf",
     "coverImage": "https://res.cloudinary.com/w214bm5j/image/upload/v1783203634/library/covers/1782996768603_kubrick_on_the_set_of_barry_lyndon_1975_publicity_photo_color.jpg",
     "reviews": [],
     "quotes": [],
@@ -1014,7 +990,7 @@
     "author": "Фрэнсис Скотт Фицджеральд",
     "genre": "Романтическая проза",
     "desc": "Роман, рассказанный от лица Ника Каррауэя, погружает в мир «века джаза» — 1920-х годов, где таинственный миллионер Джей Гэтсби устраивает роскошные вечеринки в надежде вернуть любовь своей юности, Дейзи Бьюкенен. За блеском и богатством скрывается трагическая история о разбитых мечтах и одиночестве, которая разоблачает иллюзорность «американской мечты» и моральную пустоту высшего общества.",
-    "pdfUrl": "https://res.cloudinary.com/w214bm5j/raw/upload/v1783203637/library/pdfs/gplcylxa3isenqmxpdkw",
+    "pdfUrl": "https://res.cloudinary.com/w214bm5j/image/upload/v1783255101/library/pdfs_fixed/gplcylxa3isenqmxpdkw.pdf",
     "coverImage": "https://res.cloudinary.com/w214bm5j/image/upload/v1783203636/library/covers/1783007635149_1a81e4d0addd2071506525b0e2341e67.jpg",
     "reviews": [],
     "quotes": [],
