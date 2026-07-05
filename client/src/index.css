@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+:root {
+  /* Твой фирменный малиновый цвет для акцентных кнопок */
+  --pink: #E73A98;            
+  --pink-light: #fbe6f2;      /* Наведение на кнопки */
+  --pink-mid: #f59ec9;        
+  
+  /* Новые нежно-розовые пастельные тона для блоков */
+  --bg-pink-banner: #fde8ef;  /* Мягкий розовый для баннеров и подвала */
+  --bg-site: #fdfdfd;         /* Чистый базовый фон страниц */
+  --white: #ffffff;           
+  
+  /* Контрастный темный ягодный текст (комфортный для чтения) */
+  --text: #1a050d;            
+  --text-light: #6b525c;      
+  --border: #f2dae5;          
+  
+  --shadow: 0 4px 20px rgba(231, 58, 152, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Единый мягкий и премиальный шрифт для всего сайта */
+  font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  background: var(--bg-site);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Красивые мягкие заголовки */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text);
+  font-weight: 700;
+}
