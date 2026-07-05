@@ -209,7 +209,7 @@ app.get("/api/books", (req, res) => {
 app.post('/api/upload-pdf', upload.single('file'), async (req, res) => {
   if (!req.file) return res.status(400).json({ error: 'Файл не загружен' });
   try {
-    const result = await uploadBufferToCloudinary(req.file.buffer, 'raw', 'library/pdfs');
+    const result = await uploadBufferToCloudinary(req.file.buffer, 'image', 'library/pdfs');
     res.json({ filePath: result.secure_url });
   } catch (error) {
     console.error('Ошибка загрузки PDF в Cloudinary:', error);
