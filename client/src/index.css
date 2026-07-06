@@ -25,7 +25,12 @@
   padding: 0;
 }
 
-html, body {
+html {
+  max-width: 100vw;
+  overflow-x: hidden; /* обрезает декоративные элементы, вылезающие за экран (например, "свечение" на Home) */
+}
+
+body {
   /* Единый мягкий и премиальный шрифт для всего сайта */
   font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   background: var(--bg-site);
@@ -33,7 +38,9 @@ html, body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   max-width: 100vw;
-  overflow-x: hidden; /* обрезает декоративные элементы, вылезающие за экран (например, "свечение" на Home) */
+  /* ВАЖНО: overflow-x на body намеренно НЕ ставим —
+     на iOS Safari overflow на body ломает position:sticky (Navbar)
+     и может вызывать баг с отрисовкой только половины страницы */
 }
 
 #root {
@@ -41,7 +48,6 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
 
 /* Красивые мягкие заголовки */
