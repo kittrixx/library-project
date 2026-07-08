@@ -78,3 +78,11 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* ВРЕМЕННЫЙ ТЕСТ: полностью отключаем анимацию fade-in-container,
+   подозрение на баг отрисовки (compositing layer) из-за transform в keyframes */
+.fade-in-container {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
